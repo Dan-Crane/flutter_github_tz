@@ -35,7 +35,65 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `ПОИСК`
+  String get search_P_app_bar {
+    return Intl.message(
+      'ПОИСК',
+      name: 'search_P_app_bar',
+      desc: '',
+      args: [],
+    );
+  }
 
+  /// `ПОИСК`
+  String get search_P_btn {
+    return Intl.message(
+      'ПОИСК',
+      name: 'search_P_btn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `РЕЗУЛЬТАТ ПОИСКА`
+  String get result_P_app {
+    return Intl.message(
+      'РЕЗУЛЬТАТ ПОИСКА',
+      name: 'result_P_app',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ПО ЗАПРОСУ: `
+  String get result_P_title {
+    return Intl.message(
+      'ПО ЗАПРОСУ: ',
+      name: 'result_P_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `НАЙДЕНО: `
+  String get result_P_subtitle {
+    return Intl.message(
+      'НАЙДЕНО: ',
+      name: 'result_P_subtitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Обновлено: `
+  String get result_card_info {
+    return Intl.message(
+      'Обновлено: ',
+      name: 'result_card_info',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
@@ -44,7 +102,6 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
   List<Locale> get supportedLocales {
     return const <Locale>[
       Locale.fromSubtags(languageCode: 'ru', countryCode: 'RU'),
-      Locale.fromSubtags(languageCode: 'en'),
     ];
   }
 

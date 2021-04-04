@@ -1,6 +1,9 @@
 {
-  "search_page": {
-    "app_bar":"ПОИСК",
-    "test":"test"
-  }
+  "@@locale": "ru_RU",
+  "search_P_app_bar": "ПОИСК",
+  "search_P_btn": "ПОИСК",
+  "result_P_app": "РЕЗУЛЬТАТ ПОИСКА",
+  "result_P_title" : "ПО ЗАПРОСУ: ",
+  "result_P_subtitle" : "НАЙДЕНО: ",
+  "result_card_info" : "Обновлено: "
 }

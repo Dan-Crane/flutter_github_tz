@@ -21,6 +21,11 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-
+    "result_P_app" : MessageLookupByLibrary.simpleMessage("РЕЗУЛЬТАТ ПОИСКА"),
+    "result_P_subtitle" : MessageLookupByLibrary.simpleMessage("НАЙДЕНО: "),
+    "result_P_title" : MessageLookupByLibrary.simpleMessage("ПО ЗАПРОСУ: "),
+    "result_card_info" : MessageLookupByLibrary.simpleMessage("Обновлено: "),
+    "search_P_app_bar" : MessageLookupByLibrary.simpleMessage("ПОИСК"),
+    "search_P_btn" : MessageLookupByLibrary.simpleMessage("ПОИСК")
   };
 }

@@ -56,7 +56,7 @@ flutter:
   fonts:
     - family: SFProDisplay
       fonts:
-        - asset: assets/fonts/SFProDisplay.ttf
+        - asset: assets/fonts/SFProDisplay-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
@@ -68,9 +68,5 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
 flutter_intl:
-  enabled: true
   main_locale: ru_RU
-
-# flutter_intl:
-#   enabled: true
-#   generate: true # Add this line
+  enabled: true

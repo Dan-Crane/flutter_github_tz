@@ -14,13 +14,13 @@ class App extends StatelessWidget {
       light: kLightTheme,
       initial: AdaptiveThemeMode.light,
       builder: (light, dark) => MaterialApp(
-        // localizationsDelegates: [
-        //   S.delegate,
-        //   GlobalMaterialLocalizations.delegate,
-        //   GlobalWidgetsLocalizations.delegate,
-        //   GlobalCupertinoLocalizations.delegate,
-        // ],
-        // supportedLocales: S.delegate.supportedLocales,
+        localizationsDelegates: [
+          S.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        supportedLocales: S.delegate.supportedLocales,
         title: 'GitHub_tz',
         theme: light,
         darkTheme: dark,
